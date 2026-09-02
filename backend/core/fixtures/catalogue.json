@@ -1,0 +1,313 @@
+{
+ "categories": [
+  {
+   "id": "2737044f-c9cd-4007-acf6-9b9507370d30",
+   "name": "Dresses",
+   "slug": "dresses",
+   "description": "Silhouettes that move with you",
+   "image_url": null,
+   "sort_order": 1,
+   "created_at": "2026-05-26T12:30:30.798503+00:00"
+  },
+  {
+   "id": "46d0e63f-6b5b-400f-8cae-a3115358e6b0",
+   "name": "Tops",
+   "slug": "tops",
+   "description": "Effortless layering essentials",
+   "image_url": null,
+   "sort_order": 2,
+   "created_at": "2026-05-26T12:30:30.798503+00:00"
+  },
+  {
+   "id": "6cb89d7f-af8f-48c3-867c-06e05575806b",
+   "name": "Bottoms",
+   "slug": "bottoms",
+   "description": "Tailored, drapey, and easy",
+   "image_url": null,
+   "sort_order": 3,
+   "created_at": "2026-05-26T12:30:30.798503+00:00"
+  },
+  {
+   "id": "c2477f80-ff94-4528-89fe-5adbf9cef90f",
+   "name": "Sets",
+   "slug": "sets",
+   "description": "Coordinated co-ords for the modern woman",
+   "image_url": null,
+   "sort_order": 4,
+   "created_at": "2026-05-26T12:30:30.798503+00:00"
+  },
+  {
+   "id": "f910bf75-c1e2-4306-ac18-6a7f3761dc03",
+   "name": "Warm Wear",
+   "slug": "warm-wear",
+   "description": "Trench coats, leather jackets, fur jackets and cosy layers",
+   "image_url": null,
+   "sort_order": 50,
+   "created_at": "2026-06-02T08:49:32.612661+00:00"
+  }
+ ],
+ "products": [
+  {
+   "id": "50bd084e-f08c-4a1f-81f7-26cb8112a4e8",
+   "name": "Bodycon Ruched Mini Dress",
+   "slug": "bodycon-ruched-mini-dress-gdg9",
+   "description": "Clean lines meet ultimate comfort. Available in a spectrum of rich colors, this long-sleeve midi dress offers a sleek, form-fitting silhouette suitable for both corporate settings and evening dinners.",
+   "price_kes": 1600,
+   "category_id": "2737044f-c9cd-4007-acf6-9b9507370d30",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780484035269-g7f8hw.jpeg",
+   "gallery": [],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T10:54:31.901561+00:00",
+   "updated_at": "2026-06-03T10:54:31.901561+00:00"
+  },
+  {
+   "id": "81c3b6ee-7894-4b30-a100-e0a019786fca",
+   "name": "Premium High-Waisted PU Leather Cargo Pants",
+   "slug": "premium-high-waisted-pu-leather-cargo-pants-pkd5",
+   "description": "Add an instant edge to your style. Our premium faux-leather collection features structural cargo pockets and utility details, delivering a sleek, modern streetwear aesthetic.",
+   "price_kes": 1699,
+   "category_id": "6cb89d7f-af8f-48c3-867c-06e05575806b",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780484538649-nxp19j.jpeg",
+   "gallery": [
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780484539927-dwguys.jpeg"
+   ],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T11:03:21.072541+00:00",
+   "updated_at": "2026-06-03T11:03:21.072541+00:00"
+  },
+  {
+   "id": "aa22f5f1-1ff9-4a07-82d6-1a0341609fff",
+   "name": "High-Waisted Satin Bias-Cut Midi Skirt",
+   "slug": "high-waisted-satin-bias-cut-midi-skirt-2nly",
+   "description": "A luxurious staple with a liquid-like drape. This satin midi skirt cuts a sleek silhouette, skimming gracefully over the hips to deliver an effortlessly sophisticated ensemble for day or night.",
+   "price_kes": 1199,
+   "category_id": "6cb89d7f-af8f-48c3-867c-06e05575806b",
+   "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485066224-87esxs.jpeg",
+   "gallery": [
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485067063-f82sbe.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485073517-jet77a.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485074067-tg32al.jpeg"
+   ],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T11:11:43.694596+00:00",
+   "updated_at": "2026-06-03T11:11:43.694596+00:00"
+  },
+  {
+   "id": "b53b1cd7-358a-4ece-bc71-ae98712794ef",
+   "name": "Wide Leg Pants Loose Fashionable Shorts",
+   "slug": "wide-leg-pants-loose-fashionable-shorts-jyx2",
+   "description": "Stay comfortable and stylish with these breathable casual shorts, designed for everyday wear. Made from lightweight 100% polyester fabric, they feature a flattering mid-rise waist, regular fit, and secure zipper closure for all-day comfort.\n\nProduct Features\n\nLightweight and breathable\nComfortable regular fit\nMid-rise waist\nEasy-to-style solid color\nDurable woven fabric\nZipper fly closure\n\nMaterial\n100% Polyester\n\nFit\nRegular Fit\n\nStyle\nCasual Everyday Wear\n\nOrigin\nMade in China",
+   "price_kes": 1000,
+   "category_id": "6cb89d7f-af8f-48c3-867c-06e05575806b",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL",
+    "4XL"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780237755801-rve8m4.avif",
+   "gallery": [
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780237764069-qvlvtj.avif",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780237770320-kss56y.avif",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780237776587-sam84b.avif",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780237783030-5aieor.avif"
+   ],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-05-31T14:29:50.021491+00:00",
+   "updated_at": "2026-05-31T14:29:50.021491+00:00"
+  },
+  {
+   "id": "9c43a514-35f3-4b23-8336-fd6e6e743470",
+   "name": "Elegant Mesh Overlay Bustier Corset Top",
+   "slug": "elegant-mesh-overlay-bustier-corset-top-3fzi",
+   "description": "Elevate your night-out wardrobe with this structured corset top. Featuring a supportive bustier silhouette and delicate mesh paneling, it pairs perfectly with high-waisted denim or satin skirts for a chic, contoured look.",
+   "price_kes": 1200,
+   "category_id": "46d0e63f-6b5b-400f-8cae-a3115358e6b0",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780482230784-atc8s4.jpeg",
+   "gallery": [],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T10:24:14.321854+00:00",
+   "updated_at": "2026-06-03T10:24:14.321854+00:00"
+  },
+  {
+   "id": "557074e0-aa71-4508-8b83-d3677c71df11",
+   "name": "Premium Ribbed Knit Mock-Neck Tank Top",
+   "slug": "premium-ribbed-knit-mock-neck-tank-top-jh5i",
+   "description": "A versatile wardrobe foundation. This sleeveless mock-neck tank top is crafted from a high-stretch, ribbed knit fabric that hugs your curves comfortably. Ideal for layering or wearing standalone.",
+   "price_kes": 800,
+   "category_id": "46d0e63f-6b5b-400f-8cae-a3115358e6b0",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780482372617-9ir1oh.jpeg",
+   "gallery": [],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T10:26:36.36777+00:00",
+   "updated_at": "2026-06-03T10:26:36.36777+00:00"
+  },
+  {
+   "id": "b8b5e760-a7d2-4f1f-8a8a-706e528a78c3",
+   "name": "Floral Print Long-Sleeve Dress",
+   "slug": "floral-print-long-sleeve-dress-wrm5",
+   "description": "Bring effortless elegance to your daily rotation. This beautiful midi dress features an eye-catching floral motif, long sleeves, and a flattering cinched waist that flows into a lightweight, breathable skirt.",
+   "price_kes": 1100,
+   "category_id": "2737044f-c9cd-4007-acf6-9b9507370d30",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780482592838-7z8pbw.jpeg",
+   "gallery": [],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T10:30:11.867346+00:00",
+   "updated_at": "2026-06-03T10:30:11.867346+00:00"
+  },
+  {
+   "id": "27e20a59-388f-45fd-a301-6f03148d32b8",
+   "name": "Classic Mock-Neck Long-Sleeve Midi Dress",
+   "slug": "classic-mock-neck-long-sleeve-midi-dress-53eh",
+   "description": "Clean lines meet ultimate comfort. Available in a spectrum of rich colors, this long-sleeve midi dress offers a sleek, form-fitting silhouette suitable for both corporate settings and evening dinners.",
+   "price_kes": 1151,
+   "category_id": "2737044f-c9cd-4007-acf6-9b9507370d30",
+   "sizes": [
+    "FREE SIZE"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780482822598-nwyl9b.jpeg",
+   "gallery": [],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T10:34:08.39088+00:00",
+   "updated_at": "2026-06-03T10:34:08.39088+00:00"
+  },
+  {
+   "id": "00bed09e-4e44-4bb8-ba03-3aa3cc455626",
+   "name": "Preppy Striped Collared Knit Sweater",
+   "slug": "preppy-striped-collared-knit-sweater-g2vg",
+   "description": "Stay cozy with a touch of timeless collegiate charm. Featuring bold horizontal stripes and a sharp polo-style collar, this medium-weight knit sweater balances comfort with tailored style.",
+   "price_kes": 1500,
+   "category_id": "f910bf75-c1e2-4306-ac18-6a7f3761dc03",
+   "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "tag": "NEW IN",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485450873-ivpd3y.jpeg",
+   "gallery": [
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485451998-4o3ykn.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485453077-sh668f.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485453619-xibtyy.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780485454176-xas8r3.jpeg"
+   ],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-03T11:18:05.331883+00:00",
+   "updated_at": "2026-06-03T11:18:05.331883+00:00"
+  },
+  {
+   "id": "2d25677d-f526-4838-b423-822ed97f1d70",
+   "name": "Contour Zip-Up Athletic Jumpsuit",
+   "slug": "contour-zip-up-athletic-jumpsuit-jn73",
+   "description": "The ultimate all-in-one outfit. Engineered with a premium high-compression fabric, this long-sleeve jumpsuit features a versatile front zipper to let you transition from a sporty daytime look to a sleek evening vibe.",
+   "price_kes": 1250,
+   "category_id": "c2477f80-ff94-4528-89fe-5adbf9cef90f",
+   "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "tag": "FLASH SALE",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579607231-n7vdz7.jpeg",
+   "gallery": [
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579607233-0neboe.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579607233-tvitmz.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579607234-xlomwn.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579607234-ljk31a.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579607235-7h0ebr.jpeg"
+   ],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-04T13:27:44.852046+00:00",
+   "updated_at": "2026-06-04T13:27:44.852046+00:00"
+  },
+  {
+   "id": "d4492fdd-e95f-4aae-bd9b-6c267b57368e",
+   "name": "Selena Sweetheart Flare Mini Dress",
+   "slug": "selena-sweetheart-flare-mini-dress-wvcy",
+   "description": "Playful, vibrant, and effortlessly chic. Designed with a structured sweetheart neckline, long elegant sleeves, and a beautifully flared tiered ruffle skirt, this dress moves gracefully with every step. Available in a spectrum of bold, eye-catching hues.",
+   "price_kes": 1200,
+   "category_id": "2737044f-c9cd-4007-acf6-9b9507370d30",
+   "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "tag": "FLASH SALE",
+   "image_url": "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579731366-ua7l1w.jpeg",
+   "gallery": [
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579731367-t0nytd.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579731367-2g3jga.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579731367-eqmp12.jpeg",
+    "https://pwhogohdtjlwcwffrrez.supabase.co/storage/v1/object/public/product-images/1780579731368-h89oai.jpeg"
+   ],
+   "sold": false,
+   "featured": false,
+   "created_at": "2026-06-04T13:29:24.803541+00:00",
+   "updated_at": "2026-06-04T13:29:24.803541+00:00"
+  }
+ ],
+ "gift_packages": []
+}
