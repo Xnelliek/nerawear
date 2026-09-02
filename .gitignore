@@ -7,7 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Frontend / Node / Vite / TanStack
 node_modules
 dist
 dist-ssr
@@ -21,67 +20,6 @@ dist-ssr
 .wrangler/
 .dev.vars
 
-# Python / Django
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-.pytest_cache/
-.mypy_cache/
-.dmypy.json
-dmypy.json
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.tox/
-.venv
-venv/
-ENV/
-env/
-
-# Django
-*.sqlite3
-db.sqlite3
-*.sqlite3-journal
-backend/media/
-backend/staticfiles/
-backend/static/
-backend/.env
-backend/.env.local
-backend/.env.*
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-.env.development
-.env.production
-.env.test
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -92,11 +30,3 @@ backend/.env.*
 *.njsproj
 *.sln
 *.sw?
-
-# OS files
-Thumbs.db
-desktop.ini
-
-# Local db files
-*.db
-*.db-journal

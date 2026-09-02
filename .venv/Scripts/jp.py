@@ -1,4 +1,4 @@
-#!C:\Users\user\Downloads\nera-wear-source\backend\.venv\Scripts\python.exe
+#!C:\Users\user\Downloads\nera-wear-source\.venv\Scripts\python.exe
 
 import sys
 import json

@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.orders_restrict_customer_columns() FROM PUBLIC, anon, authenticated;

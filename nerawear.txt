@@ -1,0 +1,30 @@
+ The admin account is whatever email/password you passed to this command when you set the backend up:
+
+
+
+python manage.py bootstrap_store --email you@nerawear.com --password 'YourStrongPassword123!'
+
+
+
+
+If you forgot it, just re-run the same command with the same email and a new password — it resets the password and keeps admin rights:
+
+
+
+cd backend
+.venv\Scripts\Activate.ps1
+python manage.py bootstrap_store --email you@nerawear.com --password 'NewStrongPassword123!'
+
+
+
+
+To see which admin emails exist:
+
+
+
+python manage.py shell -c "from core.models import User; print([u.email for u in User.objects.filter(is_staff=True)])"
+
+
+
+
+Then sign in at http://localhost:8080/auth and the Admin shield will appear in the nav.

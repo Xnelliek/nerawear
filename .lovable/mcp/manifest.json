@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "sdk_version": "0.26.1",
+  "path": "/mcp",
+  "auth": {
+    "type": "oauth",
+    "issuer": "https://pwhogohdtjlwcwffrrez.supabase.co/auth/v1",
+    "accepted_audiences": [
+      "authenticated"
+    ]
+  },
+  "mcp": {
+    "server": {
+      "name": "nera-chic-suite",
+      "version": "0.1.0",
+      "title": "Néra Chic Suite"
+    },
+    "tools": [
+      {
+        "name": "search_products",
+        "title": "Search products",
+        "description": "Search the Néra Wear catalogue. Filter by free-text name, category name, or featured items. Returns name, slug, price in KES, sizes, tag and availability.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "query": {
+              "description": "Free-text match against the product name.",
+              "type": "string"
+            },
+            "category": {
+              "description": "Category name, e.g. Dresses, Tops, Warm Wear.",
+              "type": "string"
+            },
+            "featured_only": {
+              "description": "Only return featured products.",
+              "type": "boolean"
+            },
+            "limit": {
+              "description": "Max products to return (default 20, max 50).",
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_product",
+        "title": "Get product details",
+        "description": "Get full details for one Néra Wear product by its slug, including description, gallery images, sizes and public review summary.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "slug": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Product slug from search_products."
+            }
+          },
+          "required": [
+            "slug"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_my_orders",
+        "title": "List my orders",
+        "description": "List the signed-in customer's own Néra Wear orders with status, totals in KES and delivery details. Newest first.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "status": {
+              "description": "Only return orders with this status.",
+              "type": "string",
+              "enum": [
+                "pending",
+                "paid",
+                "shipped",
+                "delivered",
+                "cancelled"
+              ]
+            },
+            "limit": {
+              "description": "Max orders to return (default 10, max 50).",
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_my_order",
+        "title": "Get one of my orders",
+        "description": "Get one of the signed-in customer's own orders by order number, including every line item (product, size, quantity, unit price in KES).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "order_number": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Order number, e.g. from list_my_orders."
+            }
+          },
+          "required": [
+            "order_number"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "manage_my_wishlist",
+        "title": "Manage my wishlist",
+        "description": "List the signed-in customer's wishlist, or add / remove a product by slug. Use action 'list', 'add' or 'remove'.",
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "list",
+                "add",
+                "remove"
+              ],
+              "description": "What to do with the wishlist."
+            },
+            "slug": {
+              "description": "Product slug — required for 'add' and 'remove'.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "action"
+          ]
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}

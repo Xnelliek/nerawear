@@ -1,0 +1,89 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Néra Wear palette */
+  --color-ink: #111111;
+  --color-mocha: #8B6F61;
+  --color-linen: #DCC9B3;
+  --color-mist: #F6F2ED;
+  --color-blush: #E7CFC6;
+  --color-mahogany: #4A2E23;
+  --color-gold: #b8975a;
+  --color-success: #2d7a4f;
+  --color-err: #c0392b;
+
+  /* Semantic aliases used by shadcn primitives */
+  --color-background: var(--color-mist);
+  --color-foreground: var(--color-ink);
+  --color-card: #ffffff;
+  --color-card-foreground: var(--color-ink);
+  --color-popover: #ffffff;
+  --color-popover-foreground: var(--color-ink);
+  --color-primary: var(--color-ink);
+  --color-primary-foreground: var(--color-mist);
+  --color-secondary: var(--color-linen);
+  --color-secondary-foreground: var(--color-ink);
+  --color-muted: #efe9e1;
+  --color-muted-foreground: #7a6a60;
+  --color-accent: var(--color-blush);
+  --color-accent-foreground: var(--color-ink);
+  --color-destructive: var(--color-err);
+  --color-destructive-foreground: #ffffff;
+  --color-border: rgba(139, 111, 97, 0.18);
+  --color-input: rgba(139, 111, 97, 0.25);
+  --color-ring: var(--color-mocha);
+
+  --font-serif: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Jost", "Inter", system-ui, sans-serif;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--color-mist);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  ::selection { background: var(--color-mocha); color: #fff; }
+}
+
+@layer utilities {
+  .serif { font-family: var(--font-serif); }
+  .eyebrow {
+    font-size: 0.6rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--color-mocha);
+  }
+  .btn-dark {
+    background: var(--color-ink); color: var(--color-mist); border: none;
+    padding: 0.9rem 2.2rem; font-size: 0.62rem; letter-spacing: 0.22em;
+    text-transform: uppercase; transition: background .25s;
+  }
+  .btn-dark:hover { background: var(--color-mahogany); }
+  .btn-outline {
+    background: transparent; color: var(--color-ink);
+    border: 1px solid rgba(17,17,17,.4);
+    padding: 0.9rem 2.2rem; font-size: 0.62rem; letter-spacing: 0.22em;
+    text-transform: uppercase; transition: all .25s;
+  }
+  .btn-outline:hover { border-color: var(--color-mocha); color: var(--color-mocha); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee { animation: marquee 22s linear infinite; }
